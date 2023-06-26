@@ -36,10 +36,10 @@ if not creds or not creds.valid:
 service = build('drive', 'v3', credentials=creds)
 
 # Get the template file
-template_id = '1tJtenb_7f5kvhhNA9qXFDH_l5xIGRSXbXzZ9Lqb464M'  # Update with your 'test master' file ID
+template_id = 'file url'  # Update with your 'test master' file ID
 
 # Specify the ID of the folder where files should be stored
-folder_id = '15Q75aSfv0zp-vKQ4sUn7yArrG4l8Lb2Y'  # Update with your 'test' folder ID
+folder_id = 'folder url'  # Update with your 'test' folder ID
 
 # For each student
 for index, row in data.iterrows():
